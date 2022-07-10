@@ -9,10 +9,10 @@ onButtonIncrementClick.addEventListener("click", handleIncrement);
 
 function handleDecrement(event) {    
     counterValue -= 1;    
-    return value.textContent = counterValue;
+    return value.textContent = counterValue;    
 }
 
 function handleIncrement(event) {    
     counterValue += 1;
-    return value.textContent = counterValue;
+    return value.textContent = counterValue;    
 }

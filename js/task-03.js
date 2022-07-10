@@ -14,7 +14,7 @@ const images = [
 ];
 
 const listGallery = document.querySelector(".gallery");
-const imageItem = images.reduce((acc, {url, alt}) => acc + `<li class = gallery__item><img  alt = ${alt} src = ${url} width = 300> </li>`, "");
+const imageItem = images.reduce((acc, {url, alt}) => acc + `<li class = gallery__item><img alt = ${alt} src = ${url} width = 300></li>`, "");
 console.log(imageItem);
 
 listGallery.insertAdjacentHTML("beforeend", imageItem);
