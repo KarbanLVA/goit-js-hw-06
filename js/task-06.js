@@ -7,7 +7,8 @@ function validationInput(event) {
     input.classList.remove("invalid");
     return input.classList.add("valid");
   }  
-  else {    
+  else { 
+    input.classList.remove("valid");
     return input.classList.add("invalid");
   }
 }
